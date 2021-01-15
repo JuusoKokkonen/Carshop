@@ -92,7 +92,6 @@ export default function Carlist() {
 
     return (
         <div>
-            <h1>XDDD</h1>
             <Addcar saveCar={saveCar}/>
             <ReactTable filterable={true} data={cars} columns={columns} />
         </div>
